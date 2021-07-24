@@ -13,6 +13,7 @@ Types of Text Summarization
 Customer reviews can be lengthy and detailed. Manually analysing these reviews, as you might guess, takes a long time. This is where Natural Language Processing's application can be put to use to develop a short summary for lengthy reviews.
 
 Our objective here is to generate a summary for the "Amazon Fine Food reviews" using the abstraction-based and as well as extraction-based text summarization approaches.
+
 Data Scource: [Kaggle](https://www.kaggle.com/snap/amazon-fine-food-reviews?select=Reviews.csv)
 
 ## Project pipeline
@@ -25,12 +26,21 @@ Data Scource: [Kaggle](https://www.kaggle.com/snap/amazon-fine-food-reviews?sele
 ## Results
 ### Abstractive Text Summarization 
 
-![image](https://user-images.githubusercontent.com/71747522/126857324-89aaabe2-445d-41eb-a441-ca6b38e785f0.png)
+Original text: ``gluten free want crackers one also delicious second order``<br>
+Predicted summary:  ``great gluten free baking``
+
+
+Original text: ``coffee tastes like regular coffee good weak used little less water regular strength coffee taste great smell better whether works stomach needed sure ``<br>
+Predicted summary:  ``good coffee``
+
+
+Original text: ``first time italy wife actually give gifts well good sucks seasonal definitely makes look forward holidays``<br>
+Predicted summary:  ``the best``
 
 ### Extractive Text Summarization
 
 Original text:<br>
 ```Artificial intelligence AI is intelligence demonstrated by machines as opposed to the natural intelligence displayed by humans or animals Leading AI textbooks define the field as the study of intelligent agents any system that perceives its environment and takes actions that maximize its chance of achieving its goals a Some popular accounts use the term artificial intelligence to describe machines that mimic cognitive functions that humans associate with the human mind such as learning and prob```
 
-Summary text:<br>
+Predicted summary:<br>
 ```artificial intelligence (AI) is intelligence demonstrated by machines as opposed to the natural intelligence displayed by humans or animals . leading AI textbooks define the field as the study of intelligent agents.```
