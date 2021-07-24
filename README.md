@@ -1,4 +1,4 @@
-# Test Summarization LSTM Encoder-Decoder
+# Test Summarization using LSTM Encoder-Decoder
 
 Text summarization is the problem of creating a short, accurate, and fluent summary of a longer text document. It is a Natural Language Processing application which produces short and meaningful summary of a lengthy paragraph thereby helping us to understand the essence of the topic in an efficient way.
 
