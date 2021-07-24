@@ -44,3 +44,9 @@ Original text:<br>
 
 Predicted summary:<br>
 ```artificial intelligence (AI) is intelligence demonstrated by machines as opposed to the natural intelligence displayed by humans or animals . leading AI textbooks define the field as the study of intelligent agents.```
+
+
+
+
+
+Thanks to Aravind Pai's [article](https://www.analyticsvidhya.com/blog/2019/06/comprehensive-guide-text-summarization-using-deep-learning-python/)
